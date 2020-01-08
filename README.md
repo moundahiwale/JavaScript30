@@ -1,5 +1,5 @@
 ## JavaScript 30  
-This project is based on coding exercises from JavaScript 30 - 30 Day Vanilla JS Coding Challenge  .
+This project is based on coding exercises from JavaScript 30 - 30 Day Vanilla JS Coding Challenge.
 
 ### Additional Links:
 https://javascript30.com/  

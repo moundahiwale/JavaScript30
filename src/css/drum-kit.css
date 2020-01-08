@@ -1,4 +1,50 @@
 i {
-  color: black;
-  font-size: 1.2em;
+  color: #ffc600;
+  font-size: 2rem;
+}
+
+html {
+  background: url("../../public/drum-kit/drum-kit.jpg") bottom center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1 rem 0.5 rem;
+  transition: all 0.07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba((0), 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem black;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #ffc600;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1 rem #ffc600;
 }
